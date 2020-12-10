@@ -1,0 +1,16 @@
+{
+	"name": "produp",
+	"version": "1.0.0",
+	"description": "Put your music projects in order",
+	"author": "Maros Kovac",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js",
+		"test": " REGRESSION_TESTING=true npm start"
+	},
+	"dependencies": {
+		"dotenv": "^8.2.0",
+		"express": "^4.16.1",
+		"mongodb": "^3.2.1"
+	}
+}
